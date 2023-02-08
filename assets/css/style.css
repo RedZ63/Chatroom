@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.h1{
+    margin-top: 0.5rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_connexion{
+    padding: 10px;
+    font-size: large;
+}
+
+.btn_valider{
+    padding: 5px;
+    margin-top: 0.5rem;
+    width: 8rem;
+    border-radius: 1rem;
+    border-style: none;
+    color: white;
+    background-color: black;
+    border: solid 1px;
+}
+
+.btn_valider:hover{
+    color: white;
+    background-color: rgb(14, 130, 176);
+    transform: scale(1.2);
+    border: 1px solid #444;
+    font-weight: bold;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: scroll;
+    border: 1px solid black;
+    max-height: 70vh;
+    width: 100%;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: black;
+    gap: 1rem;
+}
+
+.input2{
+    width: 70vw;
+    padding: 1rem;
+}
+
+.btn2{
+    padding: 5px;
+    margin-top: 0.5rem;
+    width: 8rem;
+    border-radius: 1rem;
+    border-style: none;
+    color: white;
+    background-color: black;
+    border: solid 1px;
+    margin-left: 0.5rem;
+}
+
+.btn2:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid #444;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.deconnexion, a{
+    text-decoration: none;
+    color:white;
+    margin: 1rem 0 0 5rem;     
+    text-align: center;
+    padding-top: 15px;
+}
+
+.deconnexion:hover{
+    border: 1px solid white; 
+    border-radius: 1rem;
+    background-color: red;
+    padding: 15px 5px 0px 5px;
+}
+
+@media screen and (max-width:769px) {
+
+    .header{
+        display: flex;
+        height: 20vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .h1{
+        text-align: center;
+    }
+    .body{
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .deconnexion, a{
+        text-decoration: none;
+        color:white;
+            
+        text-align: center;
+        /* padding-top: 15px; */
+        margin: 0;
+        padding: 0;
+    }
+    .container3{
+        position: absolute;
+        bottom:0;
+}
+    .container2{
+        width: 100vw;
+        text-align: center;
+
+    }
+
+    .btn2{
+        justify-content: center;
+        margin: 0;
+    }
+
+    .input2{
+        margin-top: 5px;
+    }
+
+    .btn2{
+        margin-top: 1rem;
+       
+}
+form{
+    text-align: center;
+}
+.deconnexion:hover{
+    border: 1px solid white; 
+    border-radius: 1rem;
+    background-color: red;
+    padding: 5px 5px 0px 5px;
+}
+}
